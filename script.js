@@ -42,5 +42,7 @@ function calculateBMI() {
     } else {
         category = 'Obesity';
     }
-    
+      // Display results
+      bmiResult.textContent = `Your BMI: ${roundedBMI}`;
+      bmiCategory.textContent = `Category: ${category}`;
   }
